@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Environment variables
+.env*
+!.env.example
+
+# Vercel
+.vercel/
+
+# Python virtual environment
+.venv/
+
+# TypeScript
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# AI / development instructions
+AGENTS.md
+CLAUDE.md
