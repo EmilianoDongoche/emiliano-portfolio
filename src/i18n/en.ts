@@ -3,6 +3,7 @@ import { TranslationData } from './types';
 export const en: TranslationData = {
   nav: {
     about: 'About',
+    projects: 'Projects',
     experience: 'Experience',
     contact: 'Contact',
     brandName: 'HELLO, MY NAME IS EMILIANO DONGOCHE',
@@ -16,6 +17,7 @@ export const en: TranslationData = {
     titleAccent: 'real products.',
     description: 'Software Engineer focused on full-stack development, AI automation and digital products.',
     positioning: 'Full-Stack • AI • Automation',
+    viewWork: 'View my work',
     letsWork: "Let's work together",
     available: 'Available for remote opportunities & selected projects.',
     architectureLabel: 'From interface to infrastructure',
