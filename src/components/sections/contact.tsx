@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight, AtSign, Code2, Mail } from 'lucide-react';
 import { siteConfig } from '@/data/site';
 import { useLanguage } from '@/i18n/context';
+import { CVDownload } from '@/components/cv-download';
 
 const contactLinks = [
   { label: 'LinkedIn', href: siteConfig.links.linkedin, icon: AtSign },
@@ -25,6 +26,7 @@ export function Contact() {
           <div className="mt-9 flex flex-wrap justify-center gap-3">
             <a href={siteConfig.links.email} className="button-primary">{t.nav.letsWork} <ArrowUpRight size={17} aria-hidden="true" /></a>
             <a href={siteConfig.links.email} className="button-secondary">{t.contact.emailMe} <Mail size={16} aria-hidden="true" /></a>
+            <CVDownload />
           </div>
           <div className="mt-10 flex flex-wrap justify-center gap-x-6 gap-y-3">
             {contactLinks.map(({ label, href, icon: Icon }) => (

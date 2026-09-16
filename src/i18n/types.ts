@@ -96,6 +96,12 @@ export interface TranslationData {
     description: string;
     cta: string;
     emailMe: string;
+    downloadCv: string;
+    cvLanguages: {
+      pt: string;
+      en: string;
+      es: string;
+    };
   };
   footer: {
     role: string;

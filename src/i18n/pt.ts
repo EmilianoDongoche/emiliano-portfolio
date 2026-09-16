@@ -147,7 +147,7 @@ export const pt: TranslationData = {
       {
         company: 'Museu das Comunicações',
         role: 'Desenvolvimento de Software / Sistemas',
-        period: '2024 — Presente',
+          period: '2025 — 2026',
         responsibilities: [
           'Desenvolvi um sistema full-stack de gestão de museus',
           'Projetei a arquitetura da aplicação e banco de dados',
@@ -161,7 +161,7 @@ export const pt: TranslationData = {
       {
         company: 'ISPPK',
         role: 'Técnico de Sistemas',
-        period: '2023 — 2024',
+          period: 'Mar 2019 — Ago 2019',
         responsibilities: [
           'Forneci suporte e manutenção de sistemas',
           'Gerenciei a infraestrutura técnica',
@@ -188,6 +188,12 @@ export const pt: TranslationData = {
     description: 'Eu vou ajudá-lo a transformar a ideia em uma solução digital prática.',
     cta: 'Começar uma conversa',
     emailMe: 'Me envie um e-mail',
+    downloadCv: 'Baixar CV',
+    cvLanguages: {
+      pt: 'Português',
+      en: 'English',
+      es: 'Español',
+    },
   },
   footer: {
     role: 'Engenheiro de Software\nFull-Stack • IA • Automação',

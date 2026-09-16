@@ -3,7 +3,6 @@ import { TranslationData } from './types';
 export const en: TranslationData = {
   nav: {
     about: 'About',
-    projects: 'Projects',
     experience: 'Experience',
     contact: 'Contact',
     brandName: 'HELLO, MY NAME IS EMILIANO DONGOCHE',
@@ -17,7 +16,6 @@ export const en: TranslationData = {
     titleAccent: 'real products.',
     description: 'Software Engineer focused on full-stack development, AI automation and digital products.',
     positioning: 'Full-Stack • AI • Automation',
-    viewWork: 'View my work',
     letsWork: "Let's work together",
     available: 'Available for remote opportunities & selected projects.',
     architectureLabel: 'From interface to infrastructure',
@@ -149,7 +147,7 @@ export const en: TranslationData = {
       {
         company: 'Museu das Comunicações',
         role: 'Software / Systems Development',
-        period: '2024 \u2014 Present',
+        period: '2025 — 2026',
         responsibilities: [
           'Developed a full-stack museum management system',
           'Designed application and database architecture',
@@ -163,7 +161,7 @@ export const en: TranslationData = {
       {
         company: 'ISPPK',
         role: 'Systems Technician',
-        period: '2023 \u2014 2024',
+        period: 'Mar 2019 — Aug 2019',
         responsibilities: [
           'Provided systems support and maintenance',
           'Managed technical infrastructure',
@@ -190,6 +188,12 @@ export const en: TranslationData = {
     description: "I'll help you turn the idea into a practical digital solution.",
     cta: 'Start a conversation',
     emailMe: 'Email me',
+    downloadCv: 'Download CV',
+    cvLanguages: {
+      pt: 'Português',
+      en: 'English',
+      es: 'Español',
+    },
   },
   footer: {
     role: 'Software Engineer\nFull-Stack • AI • Automation',
